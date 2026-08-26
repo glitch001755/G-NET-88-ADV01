@@ -68,6 +68,14 @@
             //    public T Data { get; set; }
             //}
             #endregion
+            #region Q8
+            // What is the 'class' constraint? Write an example.
+            // Restricts the type argument T to reference types .
+            //    public class ReferenceContainer<T> where T : class
+            //{
+            //    public T? Data { get; set; }
+            //}
+            #endregion
         }
     }
 }
