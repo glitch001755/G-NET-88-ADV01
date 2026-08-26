@@ -60,6 +60,14 @@
             //    T GetById(int id);
             //}
             #endregion
+            #region Q7
+            // What is the 'struct' constraint? Write an example.
+            // Restricts the type argument T to non-nullable value types .
+            //    public class ValueContainer<T> where T : struct
+            //{
+            //    public T Data { get; set; }
+            //}
+            #endregion
         }
     }
 }
