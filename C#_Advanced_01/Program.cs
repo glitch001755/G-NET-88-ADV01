@@ -51,6 +51,15 @@
             //    return a.CompareTo(b) > 0 ? a : b;
             //}
             #endregion
+            #region Q6
+            // What is a generic interface? Write IRepository<T>. 
+            // Answer => interface defined with type parameters that establishes a standardized, strongly-typed contract for any class implementing it .
+            //    public interface IRepository<T>
+            //{
+            //    void Add(T entity);
+            //    T GetById(int id);
+            //}
+            #endregion
         }
     }
 }
