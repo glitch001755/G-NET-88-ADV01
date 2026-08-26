@@ -19,6 +19,21 @@
             //    public T Get(int index) => _items[index];
             //}
             #endregion
+            #region Q3
+            // What are multiple type parameters? Write Pair<TKey, TValue >.
+            // Answer => generic class takes two or more distinct type placeholders.
+            //    public class Pair<TKey, TValue>
+            //{
+            //    public TKey Key { get; set; }
+            //    public TValue Value { get; set; }
+
+            //    public Pair(TKey key, TValue value)
+            //    {
+            //        Key = key;
+            //        Value = value;
+            //    }
+            //}
+            #endregion
         }
     }
 }
