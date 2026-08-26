@@ -102,6 +102,22 @@
             //    public void MakeSound(T animal) => animal.Speak();
             //}
             #endregion
+            #region Q12
+            // How do you apply multiple constraints? Write an example.
+            // List constraints separated by commas in the required order: Base Class => Interfaces => new() .
+            //public class BaseEntity { public int Id { get; set; } }
+            //public interface IAuditable { void Audit(); }
+
+            //public class Repository<T> where T : BaseEntity, IAuditable, new()
+            //{
+            //    public T CreateAndAudit()
+            //    {
+            //        T entity = new T();
+            //        entity.Audit();
+            //        return entity;
+            //    }
+            //}
+            #endregion
         }
     }
 }
