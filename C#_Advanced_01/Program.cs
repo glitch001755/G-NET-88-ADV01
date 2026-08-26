@@ -34,6 +34,16 @@
             //    }
             //}
             #endregion
+            #region Q4
+            // What is a generic method? Write Swap<T> method .
+            // Answer => method declared with its own type parameters, allowing it to operate on arguments of various types independently .
+            //    public static void Swap<T>(ref T a, ref T b)
+            //{
+            //    T temp = a;
+            //    a = b;
+            //    b = temp;
+            //}
+            #endregion
         }
     }
 }
