@@ -76,6 +76,14 @@
             //    public T? Data { get; set; }
             //}
             #endregion
+            #region Q9
+            // What is the 'new()' constraint? Write an example.
+            // Requires that the type argument T has a parameterless constructor .
+            //    public class Factory<T> where T : new()
+            //{
+            //    public T CreateInstance() => new T();
+            //}
+            #endregion
         }
     }
 }
