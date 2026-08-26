@@ -92,6 +92,16 @@
             //    public void Execute(T resource) => resource.Add(5);
             //}
             #endregion
+            #region Q11
+            // What is the base class constraint? Write an example.
+            // Enforces that the type argument T is, or derives from, a specific base class
+            //    public class Animal { public void Speak() { } }
+
+            //public class Shelter<T> where T : Animal
+            //{
+            //    public void MakeSound(T animal) => animal.Speak();
+            //}
+            #endregion
         }
     }
 }
