@@ -84,6 +84,14 @@
             //    public T CreateInstance() => new T();
             //}
             #endregion
+            #region Q10
+            // What is the interface constraint? Write an example.
+            // Ensures that the type argument T implements a specified interface.
+            //    public class Runner<T> where T : IRepository
+            //{
+            //    public void Execute(T resource) => resource.Add(5);
+            //}
+            #endregion
         }
     }
 }
